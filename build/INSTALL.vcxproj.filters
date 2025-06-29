@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fatih\source\repos\MyVectorLib\build\CMakeFiles\7ac0d5b6fffdc4c8d33c08bc9883da49\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F623F58D-3873-322A-B8D5-A2617EE13682}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

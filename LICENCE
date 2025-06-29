@@ -1,0 +1,19 @@
+
+---
+
+### 🧪 3. Create `.gitignore` (optional)
+
+For a C++ project:
+
+```gitignore
+/build/
+/.vscode/
+/.vs/
+/*.exe
+*.obj
+*.log
+*.user
+*.sdf
+*.opensdf
+*.db
+*.DS_Store

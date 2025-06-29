@@ -1,0 +1,2 @@
+C:/Users/Fatih/source/repos/MyVectorLib/build/install/lib/cmake/MyVector/MyVectorTargets.cmake
+C:/Users/Fatih/source/repos/MyVectorLib/build/install/include/MyVector.hpp

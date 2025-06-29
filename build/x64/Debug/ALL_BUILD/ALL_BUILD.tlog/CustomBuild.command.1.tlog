@@ -1,0 +1,10 @@
+^C:\USERS\FATIH\SOURCE\REPOS\MYVECTORLIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Fatih/source/repos/MyVectorLib -BC:/Users/Fatih/source/repos/MyVectorLib/build --check-stamp-file C:/Users/Fatih/source/repos/MyVectorLib/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

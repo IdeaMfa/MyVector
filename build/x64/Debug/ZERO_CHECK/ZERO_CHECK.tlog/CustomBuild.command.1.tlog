@@ -1,0 +1,10 @@
+^C:\USERS\FATIH\SOURCE\REPOS\MYVECTORLIB\BUILD\CMAKEFILES\7AC0D5B6FFFDC4C8D33C08BC9883DA49\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Fatih/source/repos/MyVectorLib -BC:/Users/Fatih/source/repos/MyVectorLib/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Fatih/source/repos/MyVectorLib/build/MyVector.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
