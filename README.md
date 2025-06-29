@@ -1,4 +1,3 @@
-````markdown
 # MyVectorLib
 
 🚀 **MyVectorLib** is a lightweight, header-only, generic C++ vector class implemented from scratch. It mimics the behavior of `std::vector`, making it perfect for learning about pointers, memory management, templates, and C++ class design.
@@ -24,7 +23,7 @@ Clone the repo and include the header in your project:
 
 ```bash
 git clone https://github.com/yourusername/MyVectorLib.git
-````
+```
 
 Then include it in your code:
 
@@ -34,11 +33,9 @@ Then include it in your code:
 
 And tell your compiler where to find it:
 
-```
+```bash
 -I/path/to/MyVectorLib/include
 ```
-
----
 
 ### Option 2: CMake
 
